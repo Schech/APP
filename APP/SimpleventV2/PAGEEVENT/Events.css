@@ -1,0 +1,110 @@
+
+#bandeaupresevent{
+	width:100%;
+	clear:both;
+	float:left;
+    height:700px;
+    background-color:#95DCDC;
+    padding:0;
+	margin:0;
+	background:0.75;
+    box-shadow: rgba(0,0,0,0.2) 2px 2px ;
+	text-align:center;
+	font-weight:bold;
+	font-size:1.5em;
+	z-index:5;
+
+}
+
+.bleft{
+	display:inline-block;
+	height:100%;
+	width:40%;
+	margin:0;
+	position:relative;
+	float:left;
+	
+	
+}
+.bright{
+	display:inline-block;
+	height:100%;
+	width:60%;
+	margin:0;
+	position:relative;
+	float:right;
+	color:white;
+	
+}
+.bleft .bandeauhaut{
+	height:60%;	
+	
+}
+.bleft .bandeaubas{
+	height:40%;
+}
+#map{
+	position:relative;
+	display:block;
+	top:50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+	width:95%;
+	height:95%;
+	/*max-width:500px;*/
+	border:0;	
+}
+
+.Eventpic{	
+	position:relative;
+	display:block;
+	width:95%;
+	height:95%;
+	/*max-width:500px;*/
+	max-height:500px;
+	top:50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+	box-shadow: rgba(0,0,0,0.2) 2px 2px;
+	background-color:black;
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+
+	
+}
+
+.bandeaumilieu{
+	height:70%;
+	width:100%;
+	float:left;
+	clear:left;
+	margin:0;
+
+}
+.carroussel{
+	width:100%;
+	height:100%;
+	float:left;
+	position: relative;
+    }
+.Eventcarr{
+	display:inline-block;
+	margin-right:5px;
+	position:relative;
+	top: 50%;
+    transform: translate(0,-50%);
+	width:10%;
+	height:100%;
+	background-color:black;
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+	
+}
+
+.Eventcarr:hover{
+	opacity:0.8;
+	-moz-transition: opacity 0.5s;
+	-webkit-transition: opacity 0.5s;
+
+}
+
